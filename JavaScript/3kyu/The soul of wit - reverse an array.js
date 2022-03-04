@@ -1,0 +1,1 @@
+reverse=L=>L.map(L.pop,[...L])
