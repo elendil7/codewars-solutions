@@ -4,3 +4,6 @@ function digital_root(n) {
 		return digital_root(n);
 	} else return n;
 }
+
+digital_root = (n, s = `` + n) =>
+	s[1] ? digital_root([...s].reduce((a, b) => +a + +b)) : +s;
