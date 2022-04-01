@@ -38,9 +38,13 @@
         <br>
         Click <a href="https://docs.codewars.com/gamification/ranks/">here</a> for further details.
         </li>
-        <li>Due to file names not accepting colons (<strong><code>:</code></strong>)</li> I have replaced this symbol with either an empty space (<strong><code>" "</code></strong>) or dash symbol (<strong><code>"-"</code></strong>). Acknowledge this when looking for a kata.
-        <li>In addition, if you cannot locate the kata you are searching for, try locating it in the <strong><code>Beta</code></strong> folder.
-            <br>(<i>some katas may have been approved since I first uploaded them...</i>)
+        <li>
+            <strong>Please acknowledge</strong> the following points when attempting to find a kata solution:
+            <ol>
+                <li>Due to file names not accepting colons (<strong><code>:</code></strong>), I have replaced this symbol with either an empty space (<strong><code>" "</code></strong>) or dash symbol (<strong><code>"-"</code></strong>).</li>
+                <li>Next, if you cannot find the kata you are searching for, try locating it in the <strong><code>Beta</code></strong> folder (<i>some katas may have been approved since I initially uploaded them...</i>).</li>
+                <li>Lastly, I've been obliged to remove all question marks from file names, due to strict file formatting rules.</li>
+            </ol>
         </li>
     </ul>
 </div>
