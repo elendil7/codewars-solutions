@@ -26,7 +26,7 @@
     <h2>Navigation</h2>
     <ul>
         <li>
-            This repository will include of my Codewars solutions (to this date), filtered by:
+            This repository will include all of my Codewars solutions (to this date), filtered by:
             <ol>
                 <li><strong>Programming langauge</strong></li>
                 <li><strong>Kyu / Dan (level of difficulty)</strong></li>
