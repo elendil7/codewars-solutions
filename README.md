@@ -41,8 +41,8 @@
         <li>
             <strong>Please acknowledge</strong> the following points when attempting to find a kata solution:
             <ol>
-                <li>Due to file names not accepting colons (<strong><code>:</code></strong>), I have replaced this symbol with either an empty space (<strong><code>" "</code></strong>) or dash symbol (<strong><code>"-"</code></strong>).</li>
-                <li>Next, if you cannot find the kata you are searching for, try locating it in the <strong><code>Beta</code></strong> folder (<i>some katas may have been approved since I initially uploaded them...</i>).</li>
+                <li>If you cannot find the kata you are searching for, try locating it in the <strong><code>Beta</code></strong> folder (<i>some katas may have been approved since I initially uploaded them...</i>).</li>
+                <li>Next, due to file names not accepting colons (<strong><code>:</code></strong>), I have replaced this symbol with either an empty space (<strong><code>" "</code></strong>) or dash symbol (<strong><code>"-"</code></strong>).</li>
                 <li>Lastly, I've been obliged to remove all question marks from file names, due to strict file formatting rules.</li>
             </ol>
         </li>
@@ -60,3 +60,97 @@
 
 <br>
 <hr>
+<br>
+
+<div align="center">
+    <table border = 5px width=45% align="left">
+        <tr>
+            <th colspan=2><h3 align="center"><i><a href="https://docs.codewars.com/gamification/ranks/#awarded-score">Awarded Score by Kata Rank</a></i></h3></th>
+        </tr>
+        <tr>
+            <th><div align="center">Completed</div></th>
+            <th><div align="center">Score Awarded</div></th>
+        </tr>
+        <tr align="center">
+            <td>8 kyu</td>
+            <td>2</td>
+        </tr>
+        <tr align="center">
+            <td>7 kyu</td>
+            <td>3</td>
+        </tr>
+        <tr align="center">
+            <td>6 kyu</td>
+            <td>8</td>
+        </tr>
+        <tr align="center">
+            <td>5 kyu</td>
+            <td>21</td>
+        </tr>
+        <tr align="center">
+            <td>4 kyu</td>
+            <td>55</td>
+        </tr>
+        <tr align="center">
+            <td>3 kyu</td>
+            <td>149</td>
+        </tr>
+        <tr align="center">
+            <td>2 kyu</td>
+            <td>404</td>
+        </tr>
+        <tr align="center">
+            <td>1 kyu</td>
+            <td>1,097</td>
+        </tr>
+    </table>
+    <table border=5px width=45% align="right">
+        <tr>
+            <th colspan=2><h3 align="center"><i><a href="https://docs.codewars.com/gamification/ranks/#required-score">Required Score to Rank Up</a></i></h3></th>
+        </tr>
+        <tr>
+            <th><div align="center">Completed</div></th>
+            <th><div align="center">Score Awarded</div></th>
+        </tr>
+        <tr align="center">
+            <td>8 kyu</td>
+            <td>0</td>
+        </tr>
+        <tr align="center">
+            <td>7 kyu</td>
+            <td>20</td>
+        </tr>
+        <tr align="center">
+            <td>6 kyu</td>
+            <td>76</td>
+        </tr>
+        <tr align="center">
+            <td>5 kyu</td>
+            <td>229</td>
+        </tr>
+        <tr align="center">
+            <td>4 kyu</td>
+            <td>643</td>
+        </tr>
+        <tr align="center">
+            <td>3 kyu</td>
+            <td>1,768</td>
+        </tr>
+        <tr align="center">
+            <td>2 kyu</td>
+            <td>4,829</td>
+        </tr>
+        <tr align="center">
+            <td>1 kyu</td>
+            <td>13,147</td>
+        </tr>
+        <tr align="center">
+            <td>1 dan</td>
+            <td>35,759</td>
+        </tr>
+        <tr align="center">
+            <td>2 dan</td>
+            <td>97,225</td>
+        </tr>
+    </table>
+</div>
