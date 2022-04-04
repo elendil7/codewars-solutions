@@ -13,7 +13,7 @@
 </div>
 
 <div>
-    <h2>Info</h2>
+    <h2>Disclaimer</h2>
     <ul>
         <li>Codewars warriors are <strong><code>strongly encouraged</code></strong> not to observe my Kata solutions till they have completed it themselves; or at least made an effort to contemplate means by which they may independently solve each challenge.</li>
         <li>You should <strong>not under any circumstances</strong> submit my solutions as your own on the Codewars platform.</li>
@@ -63,7 +63,7 @@
 <br>
 
 <div align="center">
-    <table border = 5px width=45% align="left">
+    <table border=5px>
         <tr>
             <th colspan=2><h3 align="center"><i><a href="https://docs.codewars.com/gamification/ranks/#awarded-score">Awarded Score by Kata Rank</a></i></h3></th>
         </tr>
@@ -104,13 +104,13 @@
             <td>1,097</td>
         </tr>
     </table>
-    <table border=5px width=45% align="right">
+    <table border=5px>
         <tr>
             <th colspan=2><h3 align="center"><i><a href="https://docs.codewars.com/gamification/ranks/#required-score">Required Score to Rank Up</a></i></h3></th>
         </tr>
         <tr>
-            <th><div align="center">Completed</div></th>
-            <th><div align="center">Score Awarded</div></th>
+            <th><div align="center">Rank</div></th>
+            <th><div align="center">Required Score</div></th>
         </tr>
         <tr align="center">
             <td>8 kyu</td>
