@@ -34,6 +34,7 @@
         </li>
     </ul>
     <ul>
+        <li>Note that some files include multiple refactored versions of the identical kata challenge. All solutions should work as intended.</li>
         <li>The lower the  <strong><code>kyu</code></strong> and the higher the <strong><code>dan</code></strong>, the tougher the challenges become.
         <br>
         Click <a href="https://docs.codewars.com/gamification/ranks/">here</a> for further details.
