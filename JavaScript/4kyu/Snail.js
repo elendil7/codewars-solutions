@@ -46,7 +46,7 @@ snail = (a) => {
 		for (i = a.length - 1; i >= 0; --i) {
 			r.push(a[i].shift());
 		}
-		a = a.filter((v) => !!v[0]);
+		a = a.filter((v) => v[0]);
 	}
 	return r.filter((v) => v);
 };
