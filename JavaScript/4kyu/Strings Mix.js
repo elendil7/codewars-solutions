@@ -100,3 +100,25 @@ function mix(s1, s2) {
 	// return final result, joined with proper separator
 	return result.join`/`;
 }
+
+mix = (x, y) =>
+	[...`abcdefghijklmnopqrstuvwxyz`]
+		.map(
+			(v) =>
+				x + y.includes(v) &&
+				((j, k) =>
+					(j < 2) & (k < 2)
+						? ``
+						: `${j == k ? `=` : j > k ? 1 : 2}:${v.repeat(
+								Math.max(j, k)
+						  )}`)(
+					[...x].filter((z) => z == v).length,
+					[...y].filter((z) => z == v).length
+				)
+		)
+		.filter((v) => v)
+		.sort(
+			(a, b) =>
+				b.length - a.length ||
+				a.replace(/[=:]/g, ``).localeCompare(b.replace(/[=:]/g, ``))
+		).join`/`;
