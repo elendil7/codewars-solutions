@@ -1,0 +1,1 @@
+getCollege=p=>p.college
