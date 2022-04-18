@@ -1,0 +1,1 @@
+trueOrFalse=v=>``+!!v
