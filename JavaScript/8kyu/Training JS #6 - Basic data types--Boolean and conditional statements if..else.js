@@ -1,1 +1,0 @@
-trueOrFalse = (v) => `` + !!v;

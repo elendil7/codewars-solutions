@@ -1,1 +1,0 @@
-stringToArray = (s) => s.split(' ');

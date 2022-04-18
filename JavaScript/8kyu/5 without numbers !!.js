@@ -1,1 +1,0 @@
-unusualFive = () => 'abcde'.length;

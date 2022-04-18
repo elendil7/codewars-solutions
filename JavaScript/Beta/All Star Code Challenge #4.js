@@ -1,1 +1,0 @@
-getCollege = (p) => p.college;
