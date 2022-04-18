@@ -1,0 +1,1 @@
+unusualFive=()=>"abcde".length
