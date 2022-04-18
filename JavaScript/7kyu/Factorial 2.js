@@ -1,0 +1,4 @@
+function factorial(n){
+  if(n==0 || n==1) return 1
+  return Array.from(Array(n).keys()).map(v=>v+1).reduce((a,b)=>a*b)
+}
