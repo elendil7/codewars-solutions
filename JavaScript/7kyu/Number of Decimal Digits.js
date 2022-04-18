@@ -1,0 +1,1 @@
+digits=n=>(``+n).length
