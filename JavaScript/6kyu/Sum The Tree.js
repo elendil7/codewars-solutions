@@ -7,3 +7,5 @@ function sumTheTreeValues(root){
     return root.value + sumTheTreeValues(root.left) + sumTheTreeValues(root.right)
   }
 }
+
+sumTheTreeValues=r=>!r?0:r.value+sumTheTreeValues(r.left)+sumTheTreeValues(r.right)
