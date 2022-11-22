@@ -38,3 +38,11 @@ function balancedParens(n) {
   // return output
   return output.length < 1 ? [""] : output
 }
+
+balancedParens=n=>{
+  o=[]
+  p=(c,l,r)=>{
+  g=a=>{if(l<n)p(c+`(`,l+1,r);if(r<l)p(c+`)`,l,r+1)};r==n?o.push(c):g()}
+  p(``,0,0)
+  return n?o:[``]
+}
