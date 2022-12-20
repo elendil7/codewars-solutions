@@ -7,3 +7,5 @@ const filter_list = (list) => {
   }
   return array;
 }
+
+filter_list=a=>a.filter(v=>v===+v)
