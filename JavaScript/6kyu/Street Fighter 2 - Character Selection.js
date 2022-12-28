@@ -4,27 +4,28 @@ function streetFighterSelection(fighters, curPos, moves){
   console.log("Current pos: ", curPos)
   console.log("Moves: ", moves)
   
-  let curPosX = curPos[0], curPosY = curPos[1], fightersHoveredOver = []
+  // Always flip X and Y for 2D arrays! Yes.
+  let curPosY = curPos[0], curPosX = curPos[1], fightersHoveredOver = []
 
   for(let i = 0; i < moves.length; ++i){    
     switch(moves[i]){
       case "up":
-        if(curPosX === 1) curPosX = 0
+        if(curPosY === 1) curPosY = 0
         break
       case "down":
-        if(curPosX === 0) curPosX = 1
+        if(curPosY === 0) curPosY = 1
         break
       case "left":
-        if(curPosY === 0) curPosY = fighters[0].length - 1
-        else curPosY --
+        if(curPosX === 0) curPosX = fighters[0].length - 1
+        else curPosX --
         break
       case "right":
-        if(curPosY === fighters[0].length - 1) curPosY = 0
-        else curPosY ++
+        if(curPosX === fighters[0].length - 1) curPosX = 0
+        else curPosX ++
         break
     }
     // update fightersHoveredOver arr
-    fightersHoveredOver.push(fighters[curPosX][curPosY])
+    fightersHoveredOver.push(fighters[curPosY][curPosX])
   }
   
   return fightersHoveredOver
